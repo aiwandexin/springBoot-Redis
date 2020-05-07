@@ -14,5 +14,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class RedisMainType {
     public static void main(String[] args) {
         SpringApplication.run(RedisMainType.class, args);
+        //修
     }
 }
