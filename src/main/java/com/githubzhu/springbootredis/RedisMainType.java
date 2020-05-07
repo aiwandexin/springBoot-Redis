@@ -15,5 +15,6 @@ public class RedisMainType {
     public static void main(String[] args) {
         SpringApplication.run(RedisMainType.class, args);
         //修
+        //在featue-blue中修改
     }
 }
