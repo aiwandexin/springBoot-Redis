@@ -16,5 +16,6 @@ public class RedisMainType {
         SpringApplication.run(RedisMainType.class, args);
         //修
         //在featue-blue中修改
+        //测试冲突（master提交）
     }
 }
