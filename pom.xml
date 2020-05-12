@@ -2,14 +2,18 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <parent>
+
+    <!--<parent>
         <artifactId>springBoot-Redis</artifactId>
         <groupId>com.atgithub_zhu</groupId>
         <version>1.0-SNAPSHOT</version>
-    </parent>
+    </parent>-->
+    <groupId>com.atgithub_zhu</groupId>
+    <artifactId>springBoot-Redis</artifactId>
+    <version>1.0-SNAPSHOT</version><!--这几行都是我复制过来的，每一个工程，都必须有完整的这三个id，你刚才的工程，只有下边一行的a是有效的，g是从parent继承的，parent又无效，所以就不完整-->
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>springboot-redis</artifactId>
+<!--    <artifactId>springboot-redis</artifactId>-->
 
     <dependencyManagement>
         <dependencies>
@@ -36,6 +40,11 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
             <scope>test</scope>
         </dependency>
     </dependencies>

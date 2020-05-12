@@ -18,5 +18,6 @@ public class RedisMainType {
         //在featue-blue中修改
         //测试冲突（master提交）
         //推送测试
+        //12344
     }
 }
